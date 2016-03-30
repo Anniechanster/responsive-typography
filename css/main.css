@@ -21,10 +21,12 @@ html {
 
 article {
   max-width: 43em;
+  margin: -.30rem 1rem 1rem 1rem;
 }
 
 article h1 {
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 article header {
@@ -38,12 +40,14 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1.3rem;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 1.3rem 0 1.3rem 0;
 }
 
 .quote {
